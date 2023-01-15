@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    /* display: flex; */
+    background-color: antiquewhite;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.navBar--items{
+    margin: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    width: 60%;
+    border-bottom: #DBDBDB solid 1px;
+    padding: 1rem;
+    /* height: auto; */
+}
+
+.home--navBar{
+    /* display: flex;*/
+    gap: 0.5rem;
+    display: flex;
+    gap: 2rem;
+}
+
+/* hero section start */
+
+.hero{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero--items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    margin-bottom: 8rem;
+}
+
+.profile--Image{
+    border-radius: 50%;
+}
+
+.profile--items, .profile--name{
+    display: flex;
+    align-items: flex-start;
+}
+
+.profile--items{
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.profile--name{
+    gap: 3rem;
+}
+
+h1{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow--btn{
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    border-radius: 2px;
+    background-color: #0095F6;
+    color: white;
+}
+
+.hero--numbers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.numbers--num{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.numbers--str{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+}
+
+
+.maxwell--str{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+
+/* hero section end */
+
+/* video reels section start */
+.video--icons{
+    display: flex;
+    font-size: 16px;
+    gap: 5rem;
+}
+
+.video--post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.videos--img{
+    width: 30rem;
+    height: 30rem;
+    
+}
+
+.videos--grid{
+    display: grid;
+    grid-template-columns: repeat(3, 33.3%);
+    grid-template-rows: repeat(6, 16.66%);
+    gap: 1rem;
+    list-style: none;
+}
+
+.video--reels--section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    border-top: solid #DBDBDB 1px;
+    padding: 1rem;
+}
